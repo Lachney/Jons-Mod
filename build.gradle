@@ -12,8 +12,8 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 
 version = "1.0"
-group = "me.xjon.jonsmod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "jonmod"
+group = "me.xjon.jon" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "jon"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {
