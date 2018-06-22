@@ -1,15 +1,15 @@
 [
 {
-  "modid": "jon",
+  "modid": "jonsmod",
   "name": "Jon's Mod",
   "description": "A mod that adds stupid ideas into Minecraft.",
   "version": "1.0",
   "mcversion": "1.12.2",
   "url": "xjon.me",
   "updateUrl": "",
-  "authorList": ["Lachney, KingPhygieBoo"],
+  "authorList": ["Lachney”, “KingPhygieBoo", “Jonathing”],
   "credits": "cheeseburger",
-  "logoFile": "",
+  "logoFile": "assets/jon/textures/blocks/jon_block.png",
   "screenshots": [],
   "dependencies": []
 }
