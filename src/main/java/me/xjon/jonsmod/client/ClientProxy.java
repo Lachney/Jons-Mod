@@ -11,7 +11,7 @@ public class ClientProxy extends CommonProxy
 	public void preInitialization() 
 	{
 		VariableConstants.registerEvent(new RenderRegistry());
-		//RenderRegistry.initEntities();
+		RenderRegistry.initEntities();
 		//registerEvent(new ItemRenders());
 		//EntityRendering.initialization();
 	}

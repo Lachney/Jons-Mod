@@ -2,6 +2,8 @@ package me.xjon.jonsmod.client.renders;
 
 import me.xjon.jonsmod.VariableConstants;
 import me.xjon.jonsmod.blocks.BlocksJon;
+import me.xjon.jonsmod.client.renders.entities.CheeseburgerRenderer;
+import me.xjon.jonsmod.entities.EntityCheeseburger;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemMeshDefinition;
@@ -23,7 +25,7 @@ public class RenderRegistry
 
 	public static void initEntities()
 	{
-		//register(EntityCheeseburger.class, CheeseburgerRenderer.class);
+		register(EntityCheeseburger.class, CheeseburgerRenderer.class);
 	}
 
 	//Blocks

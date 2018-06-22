@@ -1,5 +1,6 @@
 package me.xjon.jonsmod;
 
+import me.xjon.jonsmod.entities.JonEntities;
 import me.xjon.jonsmod.registry.RegistryEventHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -30,7 +31,7 @@ public class JonsMod
 	@EventHandler
 	public void initialization(FMLInitializationEvent event)
 	{
-		//JonEntities.initialization();
+		JonEntities.initialization();
 		//JonWorld.initialization();
 		//JonLootTables.initialization();
 		
