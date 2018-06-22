@@ -33,6 +33,8 @@ public class RenderRegistry
 	public void onModelRegisterEvent(ModelRegistryEvent event)
 	{
 		register(BlocksJon.jon_block, "jon_block");
+		register(BlocksJon.stella_block, "stella_block");
+		register(BlocksJon.red_b, "red_b");
 	}
 
 	@SubscribeEvent

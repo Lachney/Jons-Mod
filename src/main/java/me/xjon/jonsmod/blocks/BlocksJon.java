@@ -9,7 +9,9 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class BlocksJon
 {
 
-	public static Block jon_block;
+	public static Block jon_block,stella_block;
+	
+	public static Block red_b;
 	
 	private static IForgeRegistry<Block> iBlockRegistry;
 
@@ -23,6 +25,8 @@ public class BlocksJon
 		}
 		
 		jon_block = register("jon_block", new BlockJonBlock());
+		stella_block = register("stella_block", new BlockStellaBlock());
+		red_b = register("red_b", new BlockBase());
 	}
 	
 	public static void setItemRegistry(IForgeRegistry<Item> iItemRegistry)

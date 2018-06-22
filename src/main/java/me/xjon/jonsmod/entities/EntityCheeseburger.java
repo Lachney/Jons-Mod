@@ -13,11 +13,11 @@ public class EntityCheeseburger extends EntitySlime
 		super(worldIn);
 	}
 
-	/*@Override
+	@Override
     protected boolean spawnCustomParticles() 
 	{
 		return true; 
-	}*/
+	}
 
 	@Override
     protected EntitySlime createInstance()
