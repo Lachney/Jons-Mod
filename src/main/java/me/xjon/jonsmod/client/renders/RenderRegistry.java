@@ -35,6 +35,9 @@ public class RenderRegistry
 		register(BlocksJon.jon_block, "jon_block");
 		register(BlocksJon.stella_block, "stella_block");
 		register(BlocksJon.red_b, "red_b");
+		register(BlocksJon.green_screen, "green_screen");
+		register(BlocksJon.red_screen, "red_screen");
+		register(BlocksJon.blue_screen, "blue_screen");
 	}
 
 	@SubscribeEvent

@@ -13,6 +13,8 @@ public class BlocksJon
 	
 	public static Block red_b;
 	
+	public static Block green_screen, red_screen, blue_screen;
+	
 	private static IForgeRegistry<Block> iBlockRegistry;
 
 	private static IForgeRegistry<Item> iItemRegistry;
@@ -27,6 +29,9 @@ public class BlocksJon
 		jon_block = register("jon_block", new BlockJonBlock());
 		stella_block = register("stella_block", new BlockStellaBlock());
 		red_b = register("red_b", new BlockBase());
+		green_screen = register("green_screen", new BlockBase().setLightLevel(1.0F).setLightOpacity(1));
+		red_screen = register("red_screen", new BlockBase().setLightLevel(1.0F).setLightOpacity(1));
+		blue_screen = register("blue_screen", new BlockBase().setLightLevel(1.0F).setLightOpacity(1));
 	}
 	
 	public static void setItemRegistry(IForgeRegistry<Item> iItemRegistry)
