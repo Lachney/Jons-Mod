@@ -1,6 +1,7 @@
 package me.xjon.jonsmod.blocks;
 
 import me.xjon.jonsmod.VariableConstants;
+import me.xjon.jonsmod.registry.JonCreativeTabs;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -59,7 +60,7 @@ public class BlocksJon
 		iBlockRegistry.register(block);
 		iItemRegistry.register(item);
 		
-		//block.setCreativeTab(JonCreativeTabs.moo);
+		block.setCreativeTab(JonCreativeTabs.jon);
 
 		return block;
 	}
